@@ -1,0 +1,136 @@
+html,body{
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+header {
+    height: 15rem;
+    align-items: center;
+    display :flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 0 11rem;
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    justify-content: center;
+    gap: 60px;
+}
+#title{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    flex: 1;
+}
+#cadre{
+    width: 100%;
+    height:90%;
+    border-radius: 5%;
+    overflow: hidden;
+    flex: 1;
+    padding: 0 3rem;
+}
+#cadre img{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 35rem;
+    background-color: whitesmoke;
+    min-height: 55rem;
+    margin: 0;
+}
+#retour{
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 5%;
+    box-shadow: 
+    0 4px 6px rgba(0,0,0,0.1),
+    0 2px 4px  rgba(0,0,0,0.06);
+    text-decoration: none;
+
+}
+#retour:hover{
+    color: orange;
+    transform: translateX(10px);
+    box-shadow: 
+    0 4px 6px orange,
+    0 2px 4px  orange;
+}
+#text{
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 11rem;
+    text-align: left;
+}
+#fin{
+    justify-content: center;
+    padding:  0 30rem;
+}
+#sinscrire{
+    justify-content: center;
+    text-decoration: none;
+    padding: 15px;
+    background-color: white;
+    color: gray;
+     box-shadow: 
+     0 4px 6px rgba(0,0,0,0.1),
+    0 2px 4px  rgba(0,0,0,0.06);
+
+     border-radius: 5%;
+     display: flex;
+     font-size: x-large;
+}
+#sinscrire:hover{
+    color:orange;
+    box-shadow: 
+    0 4px 6px orange,
+    0 2px 4px  orange;
+    transition: .3s;
+
+    transform: translateX(20px);
+}
+footer{
+    background-color: black;
+    height: 8rem;
+    color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+#footer-box{
+    padding-top: 30px;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    p5{
+        font-size: 16px;
+        font-family:'Times New Roman', Times, serif ;
+        text-align: center;
+        color:orange ;
+    }
+}
+#Contacts-container{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+}
+#horaire-container{
+  font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; 
+      justify-content: center;
+    text-align: center;
+}
+#email-container{
+   font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;   
+     justify-content: center;
+    text-align: center;
+}
