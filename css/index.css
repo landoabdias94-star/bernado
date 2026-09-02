@@ -9,7 +9,7 @@ header {
     align-items: center;
     display :flex;
     flex-direction: column;
-    background-image: url(../../image/copy.jpg);
+    background-image: url(../image/copy.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
